@@ -1,9 +1,10 @@
-
 *{
-    border: solid;
+    border:solid 1px;
 }
 h1{
     color: rgb(9, 30, 123);
+    margin-left: 500px;
+    padding: 50px;
 }
 .header{
     background-color: red;
@@ -11,7 +12,19 @@ h1{
     justify-content: space-between;
 }
 .grid{
+    background-color:#8800aa;
     display: flex;
     justify-content: space-evenly;
+    padding: 50px;
    /* flex-wrap: wrap;*/ 
+}
+.rodaPe{
+    display: flex;
+    justify-content:right;
+}
+a:link{
+    color:#0000ff;
+}
+a:visited{
+    color:#861886;
 }
