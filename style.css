@@ -1,18 +1,16 @@
-*{
-    border:solid 1px;
-}
+
 h1{
-    color: rgb(9, 30, 123);
+    color: rgb(255, 255, 255);
     margin-left: 500px;
     padding: 50px;
 }
 .header{
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
 }
 .grid{
-    background-color:#8800aa;
+    background-color:#10d00a;
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
@@ -21,10 +19,21 @@ h1{
 .rodaPe{
     display: flex;
     justify-content:right;
+    background-color: rgb(0, 0, 0);
 }
 a:link{
     color:#0000ff;
 }
 a:visited{
-    color:#861886;
+    color:#8800aa;
+}
+a:hover{
+    color:#196517;
+}
+.item:hover img{
+    opacity:0.5 ; 
+}
+.item p{
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
